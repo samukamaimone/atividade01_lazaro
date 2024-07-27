@@ -1,0 +1,18 @@
+table, tr, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 0.8rem;
+    text-align: center;
+}
+table {
+    margin-bottom: 5rem;
+    margin: auto;
+}
+
+main p {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}

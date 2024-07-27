@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <header>
+        <h1>CEFET-MG - Campus Varginha - Curso Técnico</h1>
+    </header>
+    <nav>
+        <a href="inicio.html">Início</a>
+        <a href="curso.html">Curso</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <main>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Contato</legend>
+                <div>
+                    <label for = "nome">Nome: </label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for = "email">Email: </label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div>
+                    <input type="radio" name="serie" value="1" id="M">
+                    <label for="M">Masculino</label>
+                    <input type="radio" name="serie" value="1" id="F">
+                    <label for="F">Feminino</label>
+                </div>
+                <div>
+                    <label for="UF">Estado/Cidade </label>
+                        <select name="UF" id="UF">
+                            <option></option>
+                            <option value="1">MG</option>
+                            <option value="2">SP</option>
+                            <option value="3">RJ</option>
+                            <option value="4">ES</option>
+                            <input type="text" name="nome" id="nome">
+                        </select>
+                    </div>
+                <div>
+                    <label for="UF">Selecione o arquivo: </label>
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file"/>
+                </div>
+                <div>
+                    <label for="sug">Sugestão: <br></label>
+                    <textarea name="sug" id="sug" cols="15" rows="3"></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div>@copyleft</div>
+    </footer>
+</body>
+</html>
